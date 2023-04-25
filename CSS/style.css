@@ -24,34 +24,29 @@ body .header .span2 {
 }
 body .line1 {
   display: flex;
+  width: 100%;
 }
 body .line1 .box1 {
-  height: 200px;
-  width: 200px;
-  background-color: blueq;
+  height: 90vh;
+  width: 33.9%;
+}
+body .line1 .box1 img {
+  height: 100%;
+  width: 100%;
 }
 body .line1 .box2 {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+  height: 90vh;
+  width: 33.9%;
+}
+body .line1 .box2 img {
+  height: 100%;
+  width: 100%;
 }
 body .line1 .box3 {
-  height: 200px;
-  width: 200px;
-  background-color: green;
+  height: 90vh;
+  width: 33%;
 }
-body .line1 .box4 {
-  height: 200px;
-  width: 200px;
-  background-color: green;
-}
-body .line1 .box5 {
-  height: 200px;
-  width: 200px;
-  background-color: green;
-}
-body .line1 .box6 {
-  height: 200px;
-  width: 200px;
-  background-color: green;
+body .line1 .box3 img {
+  height: 100%;
+  width: 100%;
 }
