@@ -3,6 +3,22 @@ body {
   margin: 0;
 }
 body .header {
-  background-color: aqua;
-  height: 50vh;
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+body .header .span1 {
+  color: white;
+  font-size: 69px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 80px;
+}
+body .header .span2 {
+  color: white;
+  font-size: 69px;
+  margin-top: 80px;
+  font-weight: 500;
 }
