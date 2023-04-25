@@ -21,4 +21,37 @@ body{
         font-weight: 500;
         }
     }
+    .line1{
+        display: flex;
+        .box1{
+            height: 200px;
+            width: 200px;
+            background-color: blueq;
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        .box3{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+        }
+        .box4{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+        }
+        .box5{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+        }
+        .box6{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+        }
+    }
 }
