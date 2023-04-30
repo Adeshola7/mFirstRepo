@@ -26,77 +26,57 @@ body .line1 {
   display: flex;
   width: 100%;
 }
-body .line1 .box {
-  height: 90vh;
-  width: 33.33%;
-  position: relative;
-}
-body .line1 .box .imageDiv:hover + .overlay {
-  display: block;
-}
-body .line1 .box .imageDiv img {
-  height: 100%;
-  width: 100%;
-}
-body .line1 .box .overlay {
-  top: 0;
-  left: 0;
-  background-color: #FFE777;
-  height: 100%;
-  width: 100%;
-  display: none;
-  position: absolute;
-}
-body .line1 .box .overlay p {
-  font-size: smaller;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60%;
-}
-body .line1 .box {
+body .line1 .box1 {
   height: 90vh;
   width: 33.33%;
 }
-body .line1 .box img {
+body .line1 .box1 img {
   height: 100%;
   width: 100%;
 }
-body .line1 .box {
+body .box2 {
   height: 90vh;
   width: 33.33%;
 }
-body .line1 .box img {
+body .box2 img {
+  height: 100%;
+  width: 100%;
+}
+body .box3 {
+  height: 90vh;
+  width: 33.33%;
+}
+body .box3 img {
   height: 100%;
   width: 100%;
 }
 
-.line1 {
+.line2 {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.line1 .box {
+.line2 .box4 {
   height: 90vh;
   width: 33.33%;
 }
-.line1 .box img {
+.line2 .box4 img {
   height: 100%;
   width: 100%;
 }
-.line1 .box {
+.line2 .box5 {
   height: 90vh;
   width: 33.33%;
 }
-.line1 .box img {
+.line2 .box5 img {
   height: 100%;
   width: 100%;
 }
-.line1 .box {
+.line2 .box6 {
   height: 90vh;
   width: 33.33%;
 }
-.line1 .box img {
+.line2 .box6 img {
   height: 100%;
   width: 100%;
 }
