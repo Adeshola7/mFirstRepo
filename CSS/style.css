@@ -47,12 +47,14 @@ body .line1 .box .overlay {
   display: none;
   position: absolute;
 }
-body .line1 .box .overlay p {
+body .line1 .box .overlay a {
   font-size: smaller;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 60%;
+  text-decoration: none;
+  color: black;
 }
 body .line1 .box {
   height: 90vh;
