@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body nav {
+  margin-top: -1;
+  height: 100px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+body .head {
+  height: 100px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-top: 50px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+body .head a {
+  text-decoration: none;
+}
+body .head a header {
+  font-size: 35px;
+  font-weight: bolder;
+  color: black;
+}
+body .head p {
+  font-size: 35px;
+  font-weight: bolder;
+  color: black;
+}
+body .line1 {
+  display: grid;
+  height: 250px;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr) auto;
+  gap: 70px;
+}
+body .line1 img {
+  height: 100%;
+  width: 250px;
+}
+body .line2 {
+  margin-top: 100px;
+  display: grid;
+  height: 250px;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr) auto;
+  gap: 70px;
+}
+body .line2 img {
+  height: 100%;
+  width: 250px;
+}
+body .line3 {
+  margin-top: 150px;
+  display: grid;
+  height: 250px;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr) auto;
+  gap: 70px;
+}
+body .line3 img {
+  height: 100%;
+  width: 250px;
+}
+body .line4 {
+  margin-top: 150px;
+  display: grid;
+  height: 250px;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr) auto;
+  gap: 70px;
+}
+body .line4 img {
+  height: 100%;
+  width: 250px;
+}
+body .line5 {
+  margin-top: 150px;
+  display: grid;
+  height: 250px;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr) auto;
+  gap: 70px;
+}
+body .line5 img {
+  height: 100%;
+  width: 250px;
+}
+body .footer {
+  margin-top: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 233px;
+  background-color: #FFE777;
+  gap: 100px;
+}
+body .footer .text {
+  font-size: 33px;
+  font-family: serif;
+  font-weight: -50;
+}
+body .footer .icons {
+  margin-left: 230px;
+  margin-top: 20px;
+}
+body .footer .icons a {
+  color: black;
+  gap: 10px;
+  padding: 5px;
+}
+body .rights {
+  background-color: white;
+  height: 20vh;
+}
+body .rights .pwrapper {
+  height: 8vh;
+  width: 30%;
+  margin-top: 40px;
+  margin-left: 260px;
+}
+body .rights .pwrapper p {
+  font-size: 12px;
+  font-weight: lighter;
+}
