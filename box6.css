@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  body nav {
+    margin-top: -1;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  body .head {
+    height: 100px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-top: 50px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  body .head a {
+    text-decoration: none;
+  }
+  body .head a header {
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+  }
+  body .head p {
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+  }
+  body .wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  body .wrapper .header {
+    max-width: 60%;
+  }
+  body .wrapper .header span {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+  }
+  body .footwrapper {
+    margin-top: 100px;
+    max-width: 25%;
+    margin-left: 35%;
+  }
+  body .footwrapper h1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+  }
+  body .footwrapper h2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: lighter;
+    align-items: center;
+  }
+  body .footwrapper h3 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+  }
+  body .footwrapper h4 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    font-weight: lighter;
+  }
+  body .footwrapper .icons {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+  }
+  body .footwrapper .icons i {
+    height: 30px;
+    width: 30px;
+  }
+  body .clients {
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-top: 50px;
+  }
+  body .clients .clientsinclude {
+    margin-bottom: auto;
+  }
+  body .clients .clientsinclude .h {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  body .clients .clientsinclude .p {
+    font-weight: 100;
+  }
+  body .clients .editorial {
+    margin-bottom: px;
+  }
+  body .clients .editorial .h {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  body .clients .editorial h1 {
+    font-size: 20;
+  }
+  body .clients .editorial a {
+    color: black;
+  }
+  body .clients .editorial .p1 {
+    font-weight: 100;
+    font-style: italic;
+  }
+  body .rights {
+    background-color: white;
+    height: 20vh;
+  }
+  body .rights .pwrapper {
+    height: 8vh;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 260px;
+  }
+  body .rights .pwrapper p {
+    margin-left: 100px;
+    font-size: 12px;
+    font-weight: lighter;
+  }
